@@ -1,11 +1,11 @@
-public class Übung_5_1_main {
+public class Uebung_5_1_main {
     
     public static void main(String[] args){
 
             System.out.println("-------------------------------------------");
 
         // Objekt anlegen und erste Ausgabe
-            Übung_5_1_album testalbum = new Übung_5_1_album("Prinz Pi", "Kompass ohne Norden", "CD", 2013, 15);
+            Uebung_5_1_album testalbum = new Uebung_5_1_album("Prinz Pi", "Kompass ohne Norden", "CD", 2013, 15);
             testalbum.ausgabe();
             
         // Testweise die Einträge ändern:

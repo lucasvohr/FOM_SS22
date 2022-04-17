@@ -1,6 +1,6 @@
 import static javax.swing.JOptionPane.*;
 
-public class Übung_4_4 {
+public class Uebung_4_4 {
     
     static double pi = 3.14159265359;
 

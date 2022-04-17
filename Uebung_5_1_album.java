@@ -1,4 +1,4 @@
-public class Übung_5_1_album {
+public class Uebung_5_1_album {
     
     private String interpret;
     private String album_titel;
@@ -6,7 +6,7 @@ public class Übung_5_1_album {
     private int release;
     private int num_tracks;
 
-    public Übung_5_1_album(String in_interpret, String in_titel, String in_medium, int in_release, int in_num_tracks){
+    public Uebung_5_1_album(String in_interpret, String in_titel, String in_medium, int in_release, int in_num_tracks){
 
         interpret = in_interpret;
         album_titel = in_titel;

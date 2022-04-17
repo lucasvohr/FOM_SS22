@@ -1,6 +1,6 @@
 import static javax.swing.JOptionPane.*;
 
-public class Übung_4_3 {
+public class Uebung_4_3 {
     
     public static void main(String[] args){
 

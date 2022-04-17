@@ -2,7 +2,7 @@ import static javax.swing.JOptionPane.*;
 
 import java.util.Arrays;
 
-public class Übung_4_1{
+public class Uebung_4_1{
 
     public static void main(String[] args){
 
