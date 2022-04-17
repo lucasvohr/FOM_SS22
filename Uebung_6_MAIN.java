@@ -19,7 +19,13 @@ public class Uebung_6_MAIN {
             Uebung_6_Volleyball volleyball = new Uebung_6_Volleyball("Volleyball", 4);
             volleyball.spielen();
 
-
+    // Übung 6.4
+        // Beachvolleyball-Klasse aufrufen und Methode "spielen()" aufrufen
+        Uebung_6_BeachVolleyball beachVolleyball = new Uebung_6_BeachVolleyball("Volleyball", 4);
+        beachVolleyball.spielen();
+        beachVolleyball.get_ballgroesse();
+        beachVolleyball.set_ballgroesse(3);
+        beachVolleyball.get_ballgroesse();
     }
 
 }
