@@ -21,11 +21,11 @@ public class Uebung_6_MAIN {
 
     // Übung 6.4
         // Beachvolleyball-Klasse aufrufen und Methode "spielen()" aufrufen
-        Uebung_6_BeachVolleyball beachVolleyball = new Uebung_6_BeachVolleyball("Volleyball", 4);
-        beachVolleyball.spielen();
-        beachVolleyball.get_ballgroesse();
-        beachVolleyball.set_ballgroesse(3);
-        beachVolleyball.get_ballgroesse();
+            Uebung_6_BeachVolleyball beachVolleyball = new Uebung_6_BeachVolleyball("Volleyball", 4);
+            beachVolleyball.spielen();
+            System.out.println("Die Ballgröße beträgt: " + beachVolleyball.get_ballgroesse());
+            beachVolleyball.set_ballgroesse(3);
+            System.out.println("Die Ballgröße beträgt: " + beachVolleyball.get_ballgroesse());
     }
 
 }

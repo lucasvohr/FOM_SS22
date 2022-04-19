@@ -15,9 +15,9 @@ public class Uebung_6_BeachVolleyball extends Uebung_6_Volleyball{
 
     }
 
-    public void get_ballgroesse(){
+    public int get_ballgroesse(){
 
-        System.out.println("Die Ballgröße beträgt: " + ballgroesse);
+        return ballgroesse;
 
     }
 
