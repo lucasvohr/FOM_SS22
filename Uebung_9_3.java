@@ -2,7 +2,7 @@ import static javax.swing.JOptionPane.*;
 import java.io.File;
 import java.io.IOException;
 
-public class Uebung_9_1 {
+public class Uebung_9_3 {
     
     public static void main(String[] args){
 
@@ -40,6 +40,12 @@ public class Uebung_9_1 {
             System.out.println("Die Datei existiert bereits.");
 
         }
+
+        datei.setWritable(false);
+        System.out.println("Datei kann bearbeitet werden:\t" + datei.canWrite());
+
+        datei.setWritable(true);
+        System.out.println("Datei kann bearbeitet werden:\t" + datei.canWrite());
 
 
     }
