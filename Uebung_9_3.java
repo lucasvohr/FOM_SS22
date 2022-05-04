@@ -20,11 +20,11 @@ public class Uebung_9_3 {
 
                 if(angelegt == true){
 
-                    System.out.println("Datei wurde angelegt.");
+                    System.out.println("\nDatei wurde angelegt.\n");
 
                 } else {
 
-                    System.out.println("Datei existiert bereits.");
+                    System.out.println("\nDatei existiert bereits.\n");
 
                 }
 
@@ -37,15 +37,17 @@ public class Uebung_9_3 {
 
         } else {
 
-            System.out.println("Die Datei existiert bereits.");
+            System.out.println("\nDie Datei existiert bereits.\n");
 
         }
 
+        System.out.println("Schreibschutz aktivieren...");
         datei.setWritable(false);
-        System.out.println("Datei kann bearbeitet werden:\t" + datei.canWrite());
+        System.out.println("Datei kann bearbeitet werden:\t" + datei.canWrite() + "\n");
 
+        System.out.println("Schreibschutz deaktivieren...");
         datei.setWritable(true);
-        System.out.println("Datei kann bearbeitet werden:\t" + datei.canWrite());
+        System.out.println("Datei kann bearbeitet werden:\t" + datei.canWrite() + "\n");
 
 
     }
